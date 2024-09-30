@@ -22,3 +22,5 @@ fi
 python3 --version
 
 pyinstaller --onefile --icon=westvshubert_QYO_1.ico WestVSHubert.py
+
+mv WestVSHubertBAZA.xlsx ./dist/
