@@ -21,6 +21,14 @@ fi
 
 python3 --version
 
+pip3 install openpyxl
+pip3 install requests
+pip3 install time
+pip3 install openpyxl.chart
+pip3 install bs4
+
+brew install pyinstaller
+
 pyinstaller --onefile --icon=westvshubert_QYO_1.ico WestVSHubert.py
 
 mv WestVSHubertBAZA.xlsx ./dist/
